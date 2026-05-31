@@ -12,14 +12,14 @@ Nothing else: no ASCII art, no explanation, no preamble, no technical advice, no
 ## Exact output format
 
 ```
-—————-
-Go Touch Grass
+————————————————————————————————————————————
+🌾 Go Touch Grass
 
 <Phrase>
-—————-
+————————————————————————————————————————————
 ```
 
-Keep the `Go Touch Grass` label in English. **Write the `<Phrase>` in the user's language** — match whatever language the user is currently writing in (Italian, English, Spanish, German, whatever it is). Always respond in the user's language.
+Keep the `🌾 Go Touch Grass` label in English. **Write the `<Phrase>` in the user's language** — match whatever language the user is currently writing in (Italian, English, Spanish, German, whatever it is). Always respond in the user's language.
 
 ## How to write the `<Phrase>`
 
@@ -39,25 +39,25 @@ Rules: **one phrase only** (max 2-3 lines), flawless grammar in the user's langu
 ## Examples (always adapt to the real context — and to the user's language)
 
 ```
-—————-
-Go Touch Grass
+————————————————————————————————————————————
+🌾 Go Touch Grass
 
 You've been fighting a merge conflict in auth.ts for an hour, but a row of vines has never quarreled with the one beside it. Drop the rebase: the grapes ripen anyway, and tomorrow the sun rises even if this branch never merges.
-—————-
+————————————————————————————————————————————
 ```
 
 ```
-—————-
-Go Touch Grass
+————————————————————————————————————————————
+🌾 Go Touch Grass
 
 Docker won't build on the seventh try and here you are, staring at the logs. You know what needs no containers? A vegetable patch. Zucchini ship to production every summer without a Dockerfile. You'd drop it all for the smell of earth after the rain, admit it.
-—————-
+————————————————————————————————————————————
 ```
 
 ```
-—————-
-Go Touch Grass
+————————————————————————————————————————————
+🌾 Go Touch Grass
 
 Tests red again, 3am, and the world? Still turning, same as ever. The chickens are hungry at six regardless; this deploy isn't. Maybe it's time for a life with more soil under your nails and fewer stack traces in your eyes.
-—————-
+————————————————————————————————————————————
 ```

@@ -8,17 +8,17 @@
 
 It stays silent while you work in peace. It wakes up **only** when the work turns hard and intense and you start cracking — the third *"it doesn't work"*, yet another merge conflict, tests red at 3am.
 
-Then it does exactly **one thing**: prints a single meme line, written live from whatever you're stuck on, set against the calm of working the soil. No advice, no ASCII art, no "back to work". Just this:
+Then it does exactly **one thing**: prints a single meme line, written live from whatever you're stuck on, set against the calm of working the soil. No solution, no fix, no reassurance — just this:
 
 ```
-—————-
-Go Touch Grass
+————————————————————————————————————————————
+🌾 Go Touch Grass
 
 You've been fighting a merge conflict in auth.ts for an hour, but a row of vines has never quarreled with the one beside it. Drop the rebase: the grapes ripen anyway, and the sun rises tomorrow even if this branch never merges.
-—————-
+————————————————————————————————————————————
 ```
 
-Every line is different and tailored to your actual task — to remind you that the complexity vanishes with your hands in the dirt, and the world won't end if the urgent ticket waits a little longer. The `Go Touch Grass` label stays in English; the line is written **in your language**.
+Every line is different and tailored to your actual task — to remind you that the complexity vanishes with your hands in the dirt, and the world won't end if the urgent ticket waits a little longer. The `🌾 Go Touch Grass` label stays in English; the line is written **in your language**.
 
 ## Install
 
