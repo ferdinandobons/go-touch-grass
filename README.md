@@ -12,36 +12,31 @@
 
 Si sveglia **solo quando il lavoro si fa complicato e intenso** e tu inizi a mostrare i segni: il terzo "non funziona", l'ennesimo `merge conflict`, i test di nuovo rossi, le tre di notte sullo stesso stack trace, la frase "voglio fare il contadino".
 
-In quel momento si attiva da sola, ti fa fermare un secondo, ti mostra un casolare in ASCII art, ti fa respirare — e poi ti riporta al lavoro più leggero.
+In quel momento si attiva da sola e fa **una cosa sola**: scrive una frase. Una frase meme, cucita in tempo reale su ciò che stai facendo di complesso, messa a confronto con la pace di un mestiere legato alla terra. Niente altro.
 
 Perché la terra ti aspetta. Ma solo quando serve davvero.
 
 ## Anteprima
 
+Quando scatta, l'output è soltanto questo (l'esempio cambia in base a cosa stai facendo):
+
 ```
-                              \   |   /
-                               \  |  /
-                          ` ` `  \(_)/  ` ` `        il sole se ne frega
-                        ` ` ` `  (   )  ` ` ` `      dei tuoi merge conflict
-                               .--`|`--.
-            ___              .'         '.            ___
-          /'   '\          /  __      __  \         /'   '\
-         |  []   |        /  |==|    |==|  \       |  [] []|
-      ___|_______|___    /___|__|____|__|___\   ___|_______|___
-     /  casolare    /\   |   |  |    |  |   |  /   pollaio   /\
-    /______________/  \  |[] |  | [] |  |[] | /____________/  \
-    |   |  ___  |   |  |  |   |  |    |  |   | |   |  o o  |   |
-    |[] | |   | | []|  |  |___|__|____|__|___| |[] |  ___  | []|
- ~~~^^^^^^^^^^^^^^^^^^~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^~~~~
-   ,,,,,,    ,,,,,,    qui non esistono i test rossi    ,,,,,,
-  ,,,,,,,,  ,,,,,,,,         solo papaveri          ,,,,,,,,  ,,,,,,
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        (\__/)        zappa > tastiera        ~o~  (la gallina
-        (  o.o)                                     non sa cos'è Docker)
-        ( >  < )  guarda l'orizzonte, non lo schermo
+—————-
+Go Touch Grass
+
+È un'ora che combatti con un merge conflict in auth.ts, ma un filare di vite non ha mai litigato con quello accanto. Lascia perdere il rebase: il mosto fermenta lo stesso, e domani il sole sorge anche se questo branch non va in merge.
+—————-
 ```
 
-> Là fuori il cielo non ha versioni, le stagioni non fanno rollback, e il tramonto va sempre in produzione, ogni sera, senza un test. Il grano cresce senza pipeline. [...] Touch grass, amico. La zappa aspetta, il merge può aspettare un caffè. 🌾 ☀️ 🐓
+```
+—————-
+Go Touch Grass
+
+Test di nuovo rossi, le tre di notte, e il mondo intanto? Continua a girare uguale. Le galline alle sei hanno fame comunque, questo deploy no. Forse è ora di una vita con più terra sotto le unghie e meno stack trace negli occhi.
+—————-
+```
+
+Ogni frase mescola **quello che stai facendo di complicato** con **un'immagine di pace contadina**, per ricordarti che quella complessità non esiste con le mani nella terra — e che il mondo non cambia se la task urgentissima resta lì un altro po'.
 
 ## Installazione
 
