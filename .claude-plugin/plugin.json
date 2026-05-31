@@ -1,0 +1,11 @@
+{
+  "name": "go-touch-grass",
+  "displayName": "Go Touch Grass",
+  "description": "A meme micro-skill: when the work turns complicated and intense, it drops one line reminding you the land is waiting.",
+  "version": "1.0.0",
+  "author": { "name": "Ferdinando Bonsegna" },
+  "homepage": "https://github.com/ferdinandobons/go-touch-grass",
+  "repository": "https://github.com/ferdinandobons/go-touch-grass",
+  "license": "MIT",
+  "keywords": ["skill", "meme", "burnout", "wellbeing", "claude-code"]
+}

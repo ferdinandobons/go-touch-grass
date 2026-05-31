@@ -1,0 +1,12 @@
+{
+  "name": "go-touch-grass-marketplace",
+  "description": "Single-plugin marketplace distributing the go-touch-grass skill.",
+  "plugins": [
+    {
+      "name": "go-touch-grass",
+      "description": "A meme micro-skill: when the work turns complicated and intense, it drops one line reminding you the land is waiting.",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}

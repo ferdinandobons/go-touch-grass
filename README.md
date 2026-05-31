@@ -22,17 +22,14 @@ Every line is different and tailored to your actual task — to remind you that 
 
 ## Install
 
-A skill is just a folder with a `SKILL.md`. Drop it in an official skills location — no install command, no config.
+Install it with the official Claude Code plugin commands — nothing to clone, nothing to configure:
 
-```bash
-# Personal — available in every project
-git clone https://github.com/ferdinandobons/go-touch-grass.git ~/.claude/skills/go-touch-grass
-
-# or Project — shareable with your team (run from the project root)
-git clone https://github.com/ferdinandobons/go-touch-grass.git .claude/skills/go-touch-grass
+```
+/plugin marketplace add ferdinandobons/go-touch-grass
+/plugin install go-touch-grass@go-touch-grass-marketplace
 ```
 
-Open a new session and run `/skills` — `go-touch-grass` should be in the list. That's it.
+Open a new session (or run `/reload-plugins`) and it's live. The skill triggers on its own; you can also call it directly with `/go-touch-grass`.
 
 ## License
 
