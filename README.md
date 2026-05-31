@@ -1,53 +1,55 @@
 # 🌾 go touch grass
 
-> Una micro-skill **meme** per [Claude Code](https://claude.com/claude-code) che, nei momenti difficili della vita di un programmatore, ti ricorda quanta serenità c'è nel coltivare la terra e stare in mezzo alla natura — invece di sbatterci la testa su qualcosa di complicato.
+> A **meme** micro-skill for [Claude Code](https://claude.com/claude-code) that, in the hard moments of a programmer's life, reminds you how much peace there is in working the land and being out in nature — instead of banging your head on something complicated.
 
-`touch grass`, ma con l'orto. 🐓
+`touch grass`, but with a vegetable patch. 🐓
 
 ---
 
-## Cos'è
+## What it is
 
-È una skill che **non rompe mai le scatole**. Resta zitta mentre lavori sereno.
+A skill that **never gets in your way**. It stays quiet while you work in peace.
 
-Si sveglia **solo quando il lavoro si fa complicato e intenso** e tu inizi a mostrare i segni: il terzo "non funziona", l'ennesimo `merge conflict`, i test di nuovo rossi, le tre di notte sullo stesso stack trace, la frase "voglio fare il contadino".
+It wakes up **only when the work gets complicated and intense** and you start showing the signs: the third "it doesn't work", yet another `merge conflict`, the tests red again, 3am on the same stack trace, the words "I want to become a farmer".
 
-In quel momento si attiva da sola e fa **una cosa sola**: scrive una frase. Una frase meme, cucita in tempo reale su ciò che stai facendo di complesso, messa a confronto con la pace di un mestiere legato alla terra. Niente altro.
+When that happens it triggers on its own and does **one single thing**: it writes a phrase. A meme phrase, stitched together in real time from whatever complex thing you're doing, set against the peace of a craft tied to the land. Nothing else.
 
-Perché la terra ti aspetta. Ma solo quando serve davvero.
+Because the land is waiting for you. But only when you really need it.
 
-## Anteprima
+## Preview
 
-Quando scatta, l'output è soltanto questo (l'esempio cambia in base a cosa stai facendo):
-
-```
-—————-
-Go Touch Grass
-
-È un'ora che combatti con un merge conflict in auth.ts, ma un filare di vite non ha mai litigato con quello accanto. Lascia perdere il rebase: il mosto fermenta lo stesso, e domani il sole sorge anche se questo branch non va in merge.
-—————-
-```
+When it fires, the output is just this (the example changes based on what you're doing):
 
 ```
 —————-
 Go Touch Grass
 
-Test di nuovo rossi, le tre di notte, e il mondo intanto? Continua a girare uguale. Le galline alle sei hanno fame comunque, questo deploy no. Forse è ora di una vita con più terra sotto le unghie e meno stack trace negli occhi.
+You've been fighting a merge conflict in auth.ts for an hour, but a row of vines has never quarreled with the one beside it. Drop the rebase: the grapes ripen anyway, and tomorrow the sun rises even if this branch never merges.
 —————-
 ```
 
-Ogni frase mescola **quello che stai facendo di complicato** con **un'immagine di pace contadina**, per ricordarti che quella complessità non esiste con le mani nella terra — e che il mondo non cambia se la task urgentissima resta lì un altro po'.
+```
+—————-
+Go Touch Grass
 
-## Installazione
+Tests red again, 3am, and the world? Still turning, same as ever. The chickens are hungry at six regardless; this deploy isn't. Maybe it's time for a life with more soil under your nails and fewer stack traces in your eyes.
+—————-
+```
 
-La skill è una semplice cartella con dentro `SKILL.md`. Mettila tra le tue skill personali di Claude Code:
+Every phrase blends **what you're doing that's complicated** with **a peaceful image of country life**, to remind you that the complexity doesn't exist with your hands in the soil — and that the world won't change if the oh-so-urgent task stays unsolved a little longer.
+
+The `Go Touch Grass` label stays in English, but the phrase is always written **in your own language**, matching whatever language you're working in.
+
+## Installation
+
+The skill is just a folder with a `SKILL.md` inside. Drop it into your personal Claude Code skills:
 
 ```bash
 git clone https://github.com/ferdinandobons/go-touch-grass.git \
   ~/.claude/skills/go-touch-grass
 ```
 
-Oppure copia solo il file:
+Or grab only the file:
 
 ```bash
 mkdir -p ~/.claude/skills/go-touch-grass
@@ -55,18 +57,18 @@ curl -fsSL https://raw.githubusercontent.com/ferdinandobons/go-touch-grass/main/
   -o ~/.claude/skills/go-touch-grass/SKILL.md
 ```
 
-Riavvia Claude Code (o apri una nuova sessione) e la skill è attiva. Non devi configurare nulla.
+Restart Claude Code (or open a new session) and the skill is live. Nothing to configure.
 
-## Come si attiva
+## How it triggers
 
-Claude invoca la skill **da solo** quando dal contesto capisce che sei in difficoltà: frustrazione, sfinimento, blocco, debugging infinito, voglia di mollare. Vedi il campo `description` dentro [`SKILL.md`](./SKILL.md) per la lista completa dei segnali.
+Claude invokes the skill **on its own** when it senses from the context that you're struggling: frustration, exhaustion, being stuck, endless debugging, the urge to quit. See the `description` field inside [`SKILL.md`](./SKILL.md) for the full list of signals.
 
-Non si attiva durante il lavoro tranquillo e produttivo. È il suo unico patto con te.
+It does not trigger during calm, productive work. That's its one pact with you.
 
-## Filosofia
+## Philosophy
 
-Nessuno è mai morto per un build fallito. Te lo dice il nonno. 🌅
+Nobody ever died from a failed build. Grandpa told you so. 🌅
 
-## Licenza
+## License
 
-[MIT](./LICENSE) — coltiva, fai fork, regala. Come le talee.
+[MIT](./LICENSE) — grow it, fork it, give it away. Like cuttings.

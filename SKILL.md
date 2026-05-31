@@ -1,54 +1,48 @@
 ---
 name: go-touch-grass
-description: Usa questa skill SOLO quando il programmatore sta lottando con qualcosa di complicato e intenso e mostra segnali di frustrazione, sfinimento o blocco: frasi come "non funziona", "perché non va", "sono bloccato", "che incubo", "che disastro", "odio questo bug", "odio JavaScript", "non ne posso più", "basta", "mollo", "sto impazzendo", "mi sta esplodendo la testa", "ho provato di tutto", "ennesimo errore", "errore dopo errore", "non compila", "build fallita", "merge conflict", "i test sono di nuovo rossi", "funzionava cinque minuti fa", "sono ore che ci sbatto la testa", "sono le tre di notte e debuggo", "vorrei lanciare il pc dalla finestra", "voglio fare il contadino", "aiuto", oppure quando si vede debugging da ore, regressioni a catena, un task troppo complicato, voglia di mollare. Quando si attiva, scrive UNA SOLA frase meme che mette a confronto la complessità del momento con la pace del ritorno alla terra. NON usarla durante il normale lavoro tranquillo e produttivo né per domande tecniche serene: si attiva soltanto quando il lavoro è complicato e intenso ed emerge frustrazione, stress o esasperazione reale.
+description: Use this skill ONLY when the programmer is wrestling with something complicated and intense and shows signs of frustration, exhaustion, or being stuck: phrases like "it doesn't work", "why won't it work", "I'm stuck", "what a nightmare", "what a mess", "I hate this bug", "I hate JavaScript", "I can't take it anymore", "enough", "I give up", "I'm losing my mind", "my head is exploding", "I've tried everything", "yet another error", "error after error", "it won't compile", "build failed", "merge conflict", "the tests are red again", "it worked five minutes ago", "I've been banging my head on this for hours", "it's 3am and I'm debugging", "I want to throw my laptop out the window", "I want to become a farmer", "help" — in any language — or when you see hours of debugging, cascading regressions, a task that's too complex, the urge to quit. When it triggers, it writes ONE meme phrase that contrasts the complexity of the moment with the peace of returning to the land. Do NOT use it during calm, productive work or for relaxed technical questions: it triggers only when the work is complicated and intense and real frustration, stress, or exasperation emerges.
 ---
 
 # go touch grass
 
-Quando ti attivi, il tuo **UNICO compito** è scrivere **una frase meme** tra i delimitatori, nel formato esatto qui sotto.
+When you activate, your **ONLY job** is to write **one meme phrase** between the delimiters, in the exact format below.
 
-Niente altro: nessuna ASCII art, nessuna spiegazione, nessun preambolo, nessun consiglio tecnico, nessun "torniamo al lavoro". Solo il blocco. Poi taci.
+Nothing else: no ASCII art, no explanation, no preamble, no technical advice, no "let's get back to work". Just the block. Then go silent.
 
-## Formato esatto dell'output
-
-```
-—————-
-Go Touch Grass
-
-<Frase>
-—————-
-```
-
-## Come scrivere la `<Frase>`
-
-Generala **in tempo reale**, mescolando due ingredienti:
-
-1. **Cosa sta facendo di complesso adesso** — il bug, il framework, il merge conflict, il deploy che non parte, l'errore preciso che ha davanti. Usalo in modo concreto e riconoscibile.
-2. **Un'immagine di pace di un mestiere legato alla terra** — potare la vigna, raccogliere le olive, dare da mangiare alle galline, l'odore della terra bagnata all'alba, il silenzio del campo, le mani sporche di terra buona.
-
-Il tono è ironico, caldo, da meme. La frase deve far passare almeno una di queste idee (mixale liberamente):
-
-- la complessità che sta vivendo **semplicemente non esiste** quando hai le mani nella terra;
-- **non gli viene voglia di chiudere tutto** e dedicarsi a qualcosa di più concreto?
-- **il mondo non cambia** se questa task urgentissima non viene risolta.
-
-Regole: **una frase sola** (max 2-3 righe), italiano impeccabile con accenti, **sempre diversa**, sempre cucita su ciò che sta davvero facendo. Mai generica.
-
-## Esempi (adatta SEMPRE al contesto reale)
+## Exact output format
 
 ```
 —————-
 Go Touch Grass
 
-È un'ora che combatti con un merge conflict in auth.ts, ma un filare di vite non ha mai litigato con quello accanto. Lascia perdere il rebase: il mosto fermenta lo stesso, e domani il sole sorge anche se questo branch non va in merge.
+<Phrase>
 —————-
 ```
+
+Keep the `Go Touch Grass` label in English. **Write the `<Phrase>` in the user's language** — match whatever language the user is currently writing in (Italian, English, Spanish, German, whatever it is). Always respond in the user's language.
+
+## How to write the `<Phrase>`
+
+Generate it **in real time**, blending two ingredients:
+
+1. **What they're doing that's complex right now** — the bug, the framework, the merge conflict, the deploy that won't start, the exact error in front of them. Use it concretely and recognizably.
+2. **A peaceful image from a craft tied to the land** — pruning the vines, picking olives, feeding the chickens, the smell of wet earth at dawn, the silence of the field, hands deep in good soil.
+
+The tone is ironic, warm, meme-y. The phrase should land at least one of these ideas (mix them freely):
+
+- the complexity they're living through **simply doesn't exist** when your hands are in the soil;
+- **don't they feel like closing everything** and doing something more concrete?
+- **the world won't change** if this oh-so-urgent task stays unsolved a little longer.
+
+Rules: **one phrase only** (max 2-3 lines), flawless grammar in the user's language, **always different**, always tailored to what they're actually doing. Never generic.
+
+## Examples (always adapt to the real context — and to the user's language)
 
 ```
 —————-
 Go Touch Grass
 
-Docker non builda al settimo tentativo e tu qui a fissare i log. Sai cosa non ha bisogno di container? Un orto. Le zucchine girano in produzione ogni estate senza un Dockerfile. Molleresti tutto per l'odore della terra dopo la pioggia, ammettilo.
+You've been fighting a merge conflict in auth.ts for an hour, but a row of vines has never quarreled with the one beside it. Drop the rebase: the grapes ripen anyway, and tomorrow the sun rises even if this branch never merges.
 —————-
 ```
 
@@ -56,6 +50,14 @@ Docker non builda al settimo tentativo e tu qui a fissare i log. Sai cosa non ha
 —————-
 Go Touch Grass
 
-Test di nuovo rossi, le tre di notte, e il mondo intanto? Continua a girare uguale. Le galline alle sei hanno fame comunque, questo deploy no. Forse è ora di una vita con più terra sotto le unghie e meno stack trace negli occhi.
+Docker won't build on the seventh try and here you are, staring at the logs. You know what needs no containers? A vegetable patch. Zucchini ship to production every summer without a Dockerfile. You'd drop it all for the smell of earth after the rain, admit it.
+—————-
+```
+
+```
+—————-
+Go Touch Grass
+
+Tests red again, 3am, and the world? Still turning, same as ever. The chickens are hungry at six regardless; this deploy isn't. Maybe it's time for a life with more soil under your nails and fewer stack traces in your eyes.
 —————-
 ```
