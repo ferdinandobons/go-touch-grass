@@ -26,11 +26,11 @@ Install it with the official Claude Code plugin commands — nothing to clone, n
 
 ```
 /plugin marketplace add ferdinandobons/go-touch-grass
-/plugin install go-touch-grass@go-touch-grass-marketplace
+/plugin install go-touch-grass@go-touch-grass
 ```
 
 Open a new session (or run `/reload-plugins`) and it's live. The skill triggers on its own; you can also call it directly with `/go-touch-grass`.
 
 ## License
 
-[MIT](./LICENSE) — grow it, fork it, give it away. Like cuttings. 🌅
+[MIT](./LICENSE) — grow it, fork it, give it away.

@@ -1,5 +1,5 @@
 {
-  "name": "go-touch-grass-marketplace",
+  "name": "go-touch-grass",
   "description": "Single-plugin marketplace distributing the go-touch-grass skill.",
   "plugins": [
     {
