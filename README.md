@@ -2,8 +2,6 @@
 
 > A meme micro-skill for [Claude Code](https://claude.com/claude-code). When you're deep in a fight with some over-engineered mess, it drops one line reminding you that the land is waiting.
 
-`touch grass`, but with a vegetable patch. 🐓
-
 ---
 
 ## What it does
