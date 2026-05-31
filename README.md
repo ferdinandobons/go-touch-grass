@@ -42,14 +42,27 @@ The `Go Touch Grass` label stays in English, but the phrase is always written **
 
 ## Installation
 
-The skill is just a folder with a `SKILL.md` inside. Drop it into your personal Claude Code skills:
+A skill is just a folder containing a `SKILL.md`. Claude Code discovers it automatically from one of its official skill locations — there is no `install` command to run.
+
+### Option 1 — Personal skill (available in every project)
+
+Clone the repo into your **personal** skills directory:
 
 ```bash
 git clone https://github.com/ferdinandobons/go-touch-grass.git \
   ~/.claude/skills/go-touch-grass
 ```
 
-Or grab only the file:
+### Option 2 — Project skill (only this repo, shareable with your team)
+
+Run this from your project root — `.claude/skills/` can be committed to the repo so teammates get it too:
+
+```bash
+git clone https://github.com/ferdinandobons/go-touch-grass.git \
+  .claude/skills/go-touch-grass
+```
+
+### Option 3 — Just the file
 
 ```bash
 mkdir -p ~/.claude/skills/go-touch-grass
@@ -57,7 +70,21 @@ curl -fsSL https://raw.githubusercontent.com/ferdinandobons/go-touch-grass/main/
   -o ~/.claude/skills/go-touch-grass/SKILL.md
 ```
 
-Restart Claude Code (or open a new session) and the skill is live. Nothing to configure.
+### Verify it's loaded
+
+Start Claude Code (or open a new session) and run:
+
+```
+/skills
+```
+
+`go-touch-grass` should appear in the list. No enabling step, no config. Edits to `SKILL.md` are picked up live in the current session; a brand-new skill folder is detected from the next session.
+
+> The folder name **must** match the skill `name` (`go-touch-grass`) and the file **must** be named `SKILL.md` (uppercase). Both are already correct in this repo.
+
+### Optional — distribute it as a plugin
+
+The repo is intentionally a single skill, so it installs by cloning. If you'd rather distribute it through the official plugin marketplace flow (`/plugin marketplace add` → `/plugin install`), add a `.claude-plugin/plugin.json` (and a `marketplace.json`) and move `SKILL.md` under a `skills/go-touch-grass/` directory — see the [Claude Code plugins docs](https://code.claude.com/docs/en/discover-plugins).
 
 ## How it triggers
 
